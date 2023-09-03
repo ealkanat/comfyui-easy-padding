@@ -4,13 +4,13 @@ ComfyUI Easy Padding is a simple custom ComfyUI node that helps you to add paddi
 
 QR Code Examples;
 
-![QR code padding](img/comfy_image_padding_qr_code_sample.png)
+![QR code padding](img/comfyui_easy_padding_qr_code_sample.png)
 
-![QR code padding](img/comfy_image_padding_qr_code_sample_2.png)
+![QR code padding](img/comfyui_easy_padding_qr_code_sample_2)
 
 SDXL Inpainting Examples;
 
-![SDXL inpainting example](img/comfy_image_padding_inpainting_sample.png)
+![SDXL inpainting example](img/comfyui_easy_padding_inpainting_sample.png)
 
 ## Getting started
 
