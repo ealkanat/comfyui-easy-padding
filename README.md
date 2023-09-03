@@ -1,6 +1,6 @@
-# Technonator Comfy Image Padding
+# Comfy Easy Padding
 
-Comfy Image Padding is a simple custom ComfyUI node that help you to add padding images on ComfyUI.
+Comfy Easy Padding is a simple custom ComfyUI node that helps you to add padding to images on ComfyUI.
 
 QR Code Examples;
 

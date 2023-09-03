@@ -4,10 +4,10 @@ import numpy as np
 import torch
 
 MANIFEST = {
-    "name": "Technonator / Image Padding",
+    "name": "Comfy Easy Padding",
     "version": (1,0,0),
-    "author": "Technonator",
-    "project": "https://github.com/erkana/technonator_comfy_add_padding",
+    "author": "ealkanat",
+    "project": "https://github.com/erkana/comfy_easy_padding",
     "description": "A simple custom node for creates padding for given image",
 }
 
@@ -16,7 +16,7 @@ class AddPaddingBase:
         pass
      
      FUNCTION = "resize"
-     CATEGORY = "technonator/tools"
+     CATEGORY = "Comfy Easy Padding / Tools"
 
      def add_padding(self, image, left, top, right, bottom, color="#ffffff", transparent=False):
             padded_images = []
@@ -92,9 +92,9 @@ class AddPadding(AddPaddingBase):
 
 
 NODE_CLASS_MAPPINGS = {
-    "technonator-add-padding": AddPadding,
+    "comfy-easy-padding": AddPadding,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "technonator-add-padding": "Technonator / Image Padding",
+    "comfy-easy-padding": "Comfy Easy Padding",
 }
