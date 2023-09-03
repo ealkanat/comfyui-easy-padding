@@ -10,7 +10,7 @@ QR Code Examples;
 
 SDXL Inpainting Examples;
 
-![SDXL impainting example](img/comfy_image_padding_inpainting_sample.png)
+![SDXL inpainting example](img/comfy_image_padding_inpainting_sample.png)
 
 ## Getting started
 
