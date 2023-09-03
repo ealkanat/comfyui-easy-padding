@@ -4,10 +4,10 @@ import numpy as np
 import torch
 
 MANIFEST = {
-    "name": "Comfy Easy Padding",
+    "name": "ComfyUI Easy Padding",
     "version": (1,0,0),
     "author": "ealkanat",
-    "project": "https://github.com/erkana/comfy_easy_padding",
+    "project": "https://github.com/erkana/comfyui_easy_padding",
     "description": "A simple custom node for creates padding for given image",
 }
 
@@ -16,7 +16,7 @@ class AddPaddingBase:
         pass
      
      FUNCTION = "resize"
-     CATEGORY = "Comfy Easy Padding / Tools"
+     CATEGORY = "ComfyUI Easy Padding"
 
      def add_padding(self, image, left, top, right, bottom, color="#ffffff", transparent=False):
             padded_images = []
@@ -92,9 +92,9 @@ class AddPadding(AddPaddingBase):
 
 
 NODE_CLASS_MAPPINGS = {
-    "comfy-easy-padding": AddPadding,
+    "comfyui-easy-padding": AddPadding,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "comfy-easy-padding": "Comfy Easy Padding",
+    "comfyui-easy-padding": "Comfy Easy Padding",
 }

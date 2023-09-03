@@ -1,6 +1,6 @@
-# Comfy Easy Padding
+# ComfyUI Easy Padding
 
-Comfy Easy Padding is a simple custom ComfyUI node that helps you to add padding to images on ComfyUI.
+ComfyUI Easy Padding is a simple custom ComfyUI node that helps you to add padding to images on ComfyUI.
 
 QR Code Examples;
 
