@@ -6,7 +6,7 @@ QR Code Examples;
 
 ![QR code padding](img/comfyui_easy_padding_qr_code_sample.png)
 
-![QR code padding](img/comfyui_easy_padding_qr_code_sample_2)
+![QR code padding](img/comfyui_easy_padding_qr_code_sample_2.png)
 
 SDXL Inpainting Examples;
 
