@@ -8,9 +8,9 @@ QR Code Examples;
 
 ![QR code padding](img/comfy_image_padding_qr_code_sample_2.png)
 
-SDXL Impainting Examples;
+SDXL Inpainting Examples;
 
-![SDXL impainting example](img/comfy_image_padding_impainting_sample.png)
+![SDXL impainting example](img/comfy_image_padding_inpainting_sample.png)
 
 ## Getting started
 
