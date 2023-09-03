@@ -5,7 +5,7 @@ import torch
 
 MANIFEST = {
     "name": "ComfyUI Easy Padding",
-    "version": (1,0,0),
+    "version": (1,0,1),
     "author": "ealkanat",
     "project": "https://github.com/erkana/comfyui_easy_padding",
     "description": "A simple custom node for creates padding for given image",
