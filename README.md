@@ -16,7 +16,7 @@ SDXL Inpainting Examples;
 
 This project currently contains one node.
 
-### Comfy Easy Padding
+### ComfyUI Easy Padding
 
 #### Inputs
 
