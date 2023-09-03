@@ -6,13 +6,15 @@ QR Code Examples;
 
 ![QR code padding](img/comfy_image_padding_qr_code_sample.png)
 
+![QR code padding](img/comfy_image_padding_qr_code_sample_2.png)
+
 SDXL Impainting Examples;
 
 ![SDXL impainting example](img/comfy_image_padding_impainting_sample.png)
 
 ## Getting started
 
-This project currently contains one node which is padding an image.
+This project currently contains one node.
 
 ### Comfy Easy Padding
 
