@@ -5,7 +5,7 @@ import torch
 
 MANIFEST = {
     "name": "ComfyUI Easy Padding",
-    "version": (1,0,1),
+    "version": (1,0,2),
     "author": "ealkanat",
     "project": "https://github.com/erkana/comfyui_easy_padding",
     "description": "A simple custom node for creates padding for given image",
@@ -22,14 +22,12 @@ class AddPaddingBase:
             padded_images = []
             image = [self.tensor2pil(img) for img in image]
             for img in image:
-                if transparent == True:
-                    padded_image = Image.new("RGBA", (img.width + left + right, img.height + top + bottom), (0,0,0,0))
-                else:
-                    padded_image = Image.new("RGB", (img.width + left + right, img.height + top + bottom), self.hex_to_tuple(color))
+                padded_image = Image.new("RGBA" if transparent else "RGB", 
+                     (img.width + left + right, img.height + top + bottom), 
+                     (0, 0, 0, 0) if transparent else self.hex_to_tuple(color))
                 padded_image.paste(img, (left, top))
                 padded_images.append(self.pil2tensor(padded_image))
-            batch = torch.cat(padded_images, dim=0)
-            return batch
+            return torch.cat(padded_images, dim=0)
      
      def create_mask(self, image, left, top, right, bottom):
             masks = []
@@ -40,8 +38,7 @@ class AddPaddingBase:
                 draw = ImageDraw.Draw(mask_image)
                 draw.rectangle(shape, fill=0)
                 masks.append(self.pil2tensor(mask_image))
-            batch = torch.cat(masks, dim=0)
-            return batch
+            return torch.cat(masks, dim=0)
      
      def hex_to_float(self, color):
         if not isinstance(color, str):
