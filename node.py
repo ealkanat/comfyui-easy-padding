@@ -76,7 +76,7 @@ class AddPadding(AddPaddingBase):
                 "top": ("INT", {"default": 0, "step": 1, "min": 0, "max": 4096}),
                 "right": ("INT", {"default": 0, "step": 1, "min": 0, "max": 4096}),
                 "bottom": ("INT", {"default": 0, "step": 1, "min": 0, "max": 4096}),
-                "color": ("COLOR", {"default": "#ffffff"}),
+                "color": ("STRING", {"default": "#ffffff"}),
                 "transparent": ("BOOLEAN", {"default": False}),
             },
         }
