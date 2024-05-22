@@ -1,0 +1,15 @@
+[project]
+name = "comfyui_easy_padding"
+description = "ComfyUI Easy Padding is a simple custom ComfyUI node that helps you to add padding to images on ComfyUI."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["numpy"]
+
+[project.urls]
+Repository = "https://github.com/ealkanat/comfyui_easy_padding"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "comfyui_easy_padding"
+Icon = ""
