@@ -10,6 +10,6 @@ Repository = "https://github.com/ealkanat/comfyui_easy_padding"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "erkana"
 DisplayName = "comfyui_easy_padding"
 Icon = ""
